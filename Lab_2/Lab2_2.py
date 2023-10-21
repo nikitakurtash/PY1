@@ -22,9 +22,9 @@ while True:
     if cnt == 10:
         break
 
-    glob_money +=1
+    glob_money +=0.1
 
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", glob_money)
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", int(glob_money))
 
 
